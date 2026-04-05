@@ -15,7 +15,7 @@ import ru.berdinskiybear.armorhud.config.ArmorHudConfig;
 
 public final class ArmorHudMod implements ClientModInitializer {
     @Getter
-    private static final ConfigManager<ArmorHudConfig> manager = ConfigManager.createDefault(ArmorHudConfig.class, "ukus-armor-hud");
+    private static final ConfigManager<ArmorHudConfig> manager = ConfigManager.createDefault(ArmorHudConfig.class, "sheetas-armor-hud");
 
     @Nullable
     public static PlayerEntity getCameraPlayer() {
